@@ -1,0 +1,41 @@
+.inner-page {
+    color: #000;
+    
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
+}
+.inner-page__details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding: 10px;
+}
+.inner-page__title {
+    text-align: center;
+
+    
+}
+.inner-page__text {
+    text-align: center;
+    font-size: 24px;
+}
+.inner-page__btn{
+    color: #000;
+    border: 1px solid #000;
+    transition: all 0.2s ease-in;
+
+    &:hover{
+        background-color: #5d5d5d;
+        color: #fff;
+    }
+}
+.inner-page__photo{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}

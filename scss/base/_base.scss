@@ -1,0 +1,55 @@
+@import url(https://fonts.googleapis.com/css?family=Manrope:200,300,regular,500,600,700,800);
+
+html {
+	scroll-behavior: smooth;
+	background-color: rgb(39, 39, 39);
+}
+
+body {
+	background-color: var(--page-bg);
+	color: var(--text-color);
+	font-family: var(--font-main);
+	text-wrap: balance;
+}
+
+img {
+	display: block;
+}
+
+a {
+	color: var(--link-color);
+}
+
+code {
+	background-color: #e9f1f6;
+	padding: 0.2rem;
+	border-radius: 4px;
+}
+
+pre.code {
+	overflow-x: auto;
+	background-color: #e9f1f6;
+	padding: 1rem;
+	border-radius: 4px;
+}
+
+.title{
+	color: #000;
+	font-size: 52px;
+  font-weight: 700;
+	margin-bottom: 20px;
+
+	@media only screen and (max-width: 992px) {
+		font-size: 40px;
+		
+	}
+}
+
+.button{
+	line-height: 1;
+	padding: 15px 25px ;
+	border: 1px solid #fff;
+	border-radius: 5px;
+	transition: all 0.2s ease-in;
+	overflow: hidden;
+}
