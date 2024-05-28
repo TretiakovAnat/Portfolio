@@ -1,4 +1,5 @@
 .portfolio {
+  padding: 0px 10px;
 }
 .container {
 }
@@ -9,18 +10,11 @@
   align-items: center;
 }
 
-.portfolio__card {
-}
 .projects {
-  padding: 0 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 40px;
-
-  @media only screen and (max-width: 426px) {
-    padding: 10px 20px;
-  }
 }
 .project {
   display: flex;
