@@ -12,7 +12,7 @@
 .portfolio__card {
 }
 .projects {
-  padding: 30px 50px;
+  padding: 0px 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -20,7 +20,6 @@
 
   @media only screen and (max-width: 426px) {
     padding: 10px 20px;
-      
   }
 }
 .project {
