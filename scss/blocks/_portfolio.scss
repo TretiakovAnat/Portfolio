@@ -12,7 +12,11 @@
 .portfolio__card {
 }
 .projects {
+<<<<<<< HEAD
   padding: 0px 20px;
+=======
+  padding: 30px 50px;
+>>>>>>> 3b8a104c2826d3d601aa17181c525d68f8f38797
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -20,6 +24,10 @@
 
   @media only screen and (max-width: 426px) {
     padding: 10px 20px;
+<<<<<<< HEAD
+=======
+      
+>>>>>>> 3b8a104c2826d3d601aa17181c525d68f8f38797
   }
 }
 .project {
