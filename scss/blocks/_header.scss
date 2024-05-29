@@ -82,9 +82,9 @@ $shooting-time: 4000ms;
       animation-delay: $delay;
       opacity: random(50);
 
-      @media only screen and (max-width: 426px) {
+      @media only screen and (max-width: 460px) {
         top: calc(100% - #{random(700) - 300px});
-        left: calc(100% - #{random(700) + 200px});
+        left: calc(100% - #{random(200) + 200px});
       }
 
       &::before,
@@ -159,7 +159,6 @@ $shooting-time: 4000ms;
   }
 }
 .header__foto {
-  
   border-radius: 80px;
   @media only screen and (min-width: 454px) {
     width: 50%;
